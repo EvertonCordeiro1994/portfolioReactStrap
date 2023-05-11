@@ -31,9 +31,7 @@ export default function Projetos() {
                     }}
                 >
                     <img
-                        alt="Sample"
-                        src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/calc.png"
-                    />
+                        alt="Sample" src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/calc.png"        />
                     <CardBody>
                         <CardTitle tag="h5">
                             Calculadora Simples
@@ -64,9 +62,7 @@ export default function Projetos() {
                     }}
                 >
                     <img
-                        alt="Sample"
-                        src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/Landingpage.png"
-                    />
+                        alt="Sample" src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/Landingpage.png"        />
                     <CardBody>
                         <CardTitle tag="h5">
                             Landing page
@@ -97,9 +93,7 @@ export default function Projetos() {
                     }}
                 >
                     <img
-                        alt="Sample"
-                        src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/to-do-list.png"
-                    />
+                        alt="Sample" src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/to-do-list.png"        />
                     <CardBody>
                         <CardTitle tag="h5">
                             To do list
