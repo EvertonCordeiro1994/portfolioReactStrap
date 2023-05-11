@@ -33,7 +33,7 @@ export default function Home() {
                 <div>
                     <img
                         alt="memoji Olá"
-                        src="../src/components/img/ola.png"
+                        src="https://github.com/EvertonCordeiro1994/portfolioReactStrap/blob/main/src/components/img/ola.png"
                     />
                 </div>
             </div>
