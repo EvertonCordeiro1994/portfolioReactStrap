@@ -32,7 +32,7 @@ export default function Projetos() {
                 >
                     <img
                         alt="Sample"
-                        src="../src/components/img/calc.png"
+                        src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/calc.png"
                     />
                     <CardBody>
                         <CardTitle tag="h5">
@@ -65,7 +65,7 @@ export default function Projetos() {
                 >
                     <img
                         alt="Sample"
-                        src="../src/components/img/Landingpage.png"
+                        src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/Landingpage.png"
                     />
                     <CardBody>
                         <CardTitle tag="h5">
@@ -98,7 +98,7 @@ export default function Projetos() {
                 >
                     <img
                         alt="Sample"
-                        src="../src/components/img/to-do-list.png"
+                        src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/to-do-list.png"
                     />
                     <CardBody>
                         <CardTitle tag="h5">
