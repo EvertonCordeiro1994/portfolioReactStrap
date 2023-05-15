@@ -32,6 +32,15 @@
     -webkit-text-fill-color: transparent;    
     font-size: 58px;
 }
+.m-6{
+    margin: 6rem;
+}
+.mt-6{
+    margin-top: 6rem;
+}
+
+
+
 .title-home{
     /* margin-top: 180px; */
     text-align: left;
@@ -39,3 +48,4 @@
     line-height: 60px;
     color: var(--title-color);
 }
+
