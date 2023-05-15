@@ -17,10 +17,7 @@
     background-color: var(--background-color);
     color: var(--font-color);
 }
-.container-size{
-    width: 90vw;
-    height: 800px ;
-}
+
 .horizontal-line {
     margin: auto;
     width: 70vw;
