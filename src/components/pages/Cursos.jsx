@@ -8,8 +8,8 @@ import {
 
 export default function Curso() {
     return (
-        <Container className='container-size'>
-            <Col xs={12} md={16} className="d-flex justify-content-center">
+        <Container >
+            <Col xs={12} md={16} className="d-flex justify-content-center mb-10">
                 <div className='text-center'>
                     <h2 className="container-sobre-h2" >Cursos</h2>
                     <ListaXP

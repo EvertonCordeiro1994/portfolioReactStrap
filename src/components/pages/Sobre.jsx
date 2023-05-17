@@ -10,7 +10,7 @@ import {
 export default function Sobre() {
     return (
         <Container className='container-size'>
-            <Col xs={12} md={16} className="d-flex justify-content-center align-items-center">
+            <Col xs='12' md='12' className="d-flex justify-content-center align-items-center mb-10">
                 <div >
                     <h2 className="text-center" >Sobre mim</h2>
                     <p>

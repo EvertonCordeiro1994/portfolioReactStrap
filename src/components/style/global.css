@@ -30,7 +30,6 @@
     background: linear-gradient(to right, var(--gradient-color01), var(--gradient-color02)) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
-    font-size: 3.7rem;
 }
 .m-6{
     margin: 6rem;
@@ -125,6 +124,17 @@
     color: var(--title-color);
 }
 
+.iconSize-home{
+    font-size: 2.5rem;
+}
+.iconSize-tools{
+    font-size: 9.4rem;
+}
+.iconSize-footer{
+    font-size: 1.5rem;
+}
+
+
 
 @media(max-width: 800px ){
     .invisivel{
@@ -133,6 +143,14 @@
 
     .mt-10{
         margin: 4rem;
+    }
+
+    .mb-10{
+        margin-bottom: 4rem;
+    }
+
+    .iconSize-tools{
+        font-size: 3rem;
     }
 }
 

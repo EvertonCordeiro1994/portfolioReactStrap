@@ -6,11 +6,13 @@ import {
 
 export default function Contato() {
     return (
-        <Container className='d-flex align-items-center text-center container-size'>
-            <Col>
-                <h1>Ficou interessado no meu trabalho? <br />
-                    entre em contato</h1>
-                <p><a className="gradient" href="mailto:evertoncordeiro@icloud.com">evertoncordeiro@icloud.com</a></p>
+        <Container>
+            <Col className='d-flex-colunm text-center'>
+                <h3>Ficou interessado no meu trabalho? <br />
+                    entre em contato</h3>
+                <h2>
+                    <a className="gradient" href="mailto:evertoncordeiro@icloud.com">evertoncordeiro@icloud.com</a>
+                </h2>
             </Col>
         </Container>
     )

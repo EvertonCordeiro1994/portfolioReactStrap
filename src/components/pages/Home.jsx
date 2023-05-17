@@ -25,9 +25,9 @@ export default function Home() {
                         </h1>
 
                         <div className='d-flex justify-content-center gap-5'>
-                            <Icon icon="bi:github"      style={{ fontSize: '40' }} />
-                            <Icon icon="mdi:linkedin"   style={{ fontSize: '40' }} />
-                            <Icon icon="tabler:mail"    style={{ fontSize: '40' }} />
+                            <Icon icon="bi:github"      className='iconSize-home' />
+                            <Icon icon="mdi:linkedin"   className='iconSize-home'  />
+                            <Icon icon="tabler:mail"    className='iconSize-home'  />
                         </div>
 
                     </div>
