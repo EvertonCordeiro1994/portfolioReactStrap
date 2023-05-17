@@ -27,7 +27,7 @@ export default function Projetos() {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row className=" mb-10">
                 <Col className="d-flex justify-content-center mb-4">
                     <Card style= {{ width: '18rem' }} >
                         <img alt="Sample" src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/calc.png" />
@@ -78,7 +78,7 @@ export default function Projetos() {
                         </CardBody>
                     </Card>
                 </Col>
-                <Col className="d-flex justify-content-center mb-10">
+                <Col className="d-flex justify-content-center mb-4">
                     <Card style={{ width: '18rem' }}>
                         <img alt="Sample" src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/to-do-list.png" />
                         <CardBody>
