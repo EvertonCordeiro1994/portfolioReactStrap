@@ -14,7 +14,7 @@ export default function Home() {
             <Row>
                 <Col xl="8" md="8" sm='12' xs='12' >
                     <div>
-                        <h1 className='text-center'>
+                        <h1 className='text-center title-home'>
                             Olá ! Me chamo
                             <br />
                             <span className='gradient'>Éverton Cordeiro</span>

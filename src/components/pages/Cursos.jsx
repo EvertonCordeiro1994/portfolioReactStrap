@@ -9,9 +9,9 @@ import {
 export default function Curso() {
     return (
         <Container >
-            <Col xs={12} md={16} className="d-flex justify-content-center mb-10">
+            <Col className="d-flex justify-content-center mb-10 ">
                 <div className='text-center'>
-                    <h2 className="container-sobre-h2" >Cursos</h2>
+                    <h2 className="container-sobre-h2 gradient" >Cursos</h2>
                     <ListaXP
                         curso='React js'
                         duracao='40h'

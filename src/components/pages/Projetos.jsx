@@ -15,23 +15,21 @@ export default function Projetos() {
     return (
         <Container>
             <Row>
-                <Col>
-                    <div className="text-center">
-                        <h1>Projetos</h1>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Nisi, eligendi. Magnam repudiandae blanditiis voluptate modi
-                            molestias asperiores rerum corrupti numquam, ipsum odio possimus
-                            ducimus eligendi quidem corporis iure dolorem dolore?
-                        </p>
-                    </div>
+                <Col  className="text-center ">
+                    <h1 className="gradient">Projetos</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi, eligendi. Magnam repudiandae blanditiis voluptate modi
+                        molestias asperiores rerum corrupti numquam, ipsum odio possimus
+                        ducimus eligendi quidem corporis iure dolorem dolore?
+                    </p>
                 </Col>
             </Row>
             <Row className=" mb-10">
                 <Col className="d-flex justify-content-center mb-4">
-                    <Card style= {{ width: '18rem' }} >
+                    <Card className="card" style= {{ width: '18rem' }} >
                         <img alt="Sample" src="https://raw.githubusercontent.com/EvertonCordeiro1994/portfolioReactStrap/main/src/components/img/calc.png" />
-                        <CardBody>
+                        <CardBody className="Card-info">
                             <CardTitle tag="h5">
                                 Calculadora Simples
                             </CardTitle>
