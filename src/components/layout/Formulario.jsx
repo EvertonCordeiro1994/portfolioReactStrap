@@ -14,6 +14,7 @@ export default function Formulario() {
       <Form action="https://formsubmit.co/0c1ff3ca19afe42b60837e90c051fcda" method="POST">
         <FormGroup floating>
           <Input
+            className='input'
             id="exampleName"
             name="name"
             placeholder="Digite seu nome"
@@ -26,13 +27,14 @@ export default function Formulario() {
         </FormGroup>
         <FormGroup floating>
           <Input
+            className='input'
             id="exampleEmail"
             name="email"
             placeholder="Digite seu email"
             type="email"
             required
           />
-          <Label for="exampleEmail">
+          <Label className='input' for="exampleEmail">
             Email
           </Label>
         </FormGroup>

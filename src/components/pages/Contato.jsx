@@ -1,8 +1,4 @@
-import { Icon } from '@iconify/react'
-import {
-    Container,
-    Col,
-} from 'reactstrap'
+import { Container, Col} from 'reactstrap'
 import Formulario from '../layout/Formulario'
 
 
