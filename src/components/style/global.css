@@ -10,7 +10,7 @@
     --gradient-color02: #E70FAA;
     --font-titles: bold 3.6rem 'Poppins', sans-serif;
     --font-paragrafos: 700 1.2rem 'Poppins', sans-serif;
-    --background: linear-gradient(to left, var(--gradient-color01) 0%, var(--gradient-color02) 90%);
+    --gradient: linear-gradient(to left, var(--gradient-color01) 0%, var(--gradient-color02) 90%);
 }
 
 * {
@@ -33,7 +33,7 @@
 }
 
 .gradient {
-    background: var(--background);
+    background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -171,7 +171,7 @@
     border-radius: 1rem;
     overflow: visible;
     background: var(--gradient-color01);
-    background: var(--background);
+    background: var(--gradient);
     position: relative;
     z-index: 1;
 }
@@ -199,14 +199,17 @@
     letter-spacing: .1em;
 }
 
-.input{
-   
+.wid{
+    width: 600px !important;
+    display: flex;
+    flex-direction: column;
 }
 
-#exampleText{
-    border:10rem  solid linear-gradient(to left, var(--gradient-color01) 0%, var(--gradient-color02) 100%);
+.btn{
+    width: 5rem;
+    margin: auto;
+    
 }
-
 
 @media(max-width: 800px) {
     .invisivel {

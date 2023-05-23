@@ -12,8 +12,8 @@ export default function Contato() {
                    Deixe uma mensagem 
                 </h2>
             </Col>
-            <Col>
-                <Formulario/>
+            <Col className='d-flex justify-content-center' >
+                <Formulario  />
             </Col>
         </Container>
     )
