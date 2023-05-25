@@ -37,7 +37,7 @@ export default function Projetos() {
                                 <Icon icon='la:tools' /> HTML, CSS e JS
                             </CardSubtitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the card‘s content.
+                                A Calculadora é uma aplicação web que permite ao usuário realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão. Este projeto utiliza HTML para estruturar a calculadora e CSS para estilizar a interface.
                             </CardText>
                             <CardLink href="https://github.com/EvertonCordeiro1994/calculadora-simples">
                                 < Icon icon='ri:github-line' /> Repositório
