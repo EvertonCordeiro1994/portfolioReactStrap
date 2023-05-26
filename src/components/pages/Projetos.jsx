@@ -39,10 +39,10 @@ export default function Projetos() {
                             <CardText>
                                 A Calculadora é uma aplicação web que permite ao usuário realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão. Este projeto utiliza HTML para estruturar a calculadora e CSS para estilizar a interface.
                             </CardText>
-                            <CardLink href="https://github.com/EvertonCordeiro1994/calculadora-simples">
+                            <CardLink href="https://github.com/EvertonCordeiro1994/calculadora-simples" target='_blank'>
                                 < Icon icon='ri:github-line' /> Repositório
                             </CardLink>
-                            <CardLink href="https://calculadorasimples01.netlify.app/">
+                            <CardLink href="https://calculadorasimples01.netlify.app/" target='_blank'>
                                 < Icon icon='material-symbols:deployed-code-outline-sharp' />  Deployed
                             </CardLink>
                         </CardBody>
@@ -64,10 +64,10 @@ export default function Projetos() {
                             <CardText>
                                 A landing page é uma página web projetada para promover um produto, serviço ou evento específico. Este projeto inclui uma landing page responsiva e estilizada usando apenas HTML e CSS puro. 
                             </CardText>
-                            <CardLink href="https://github.com/EvertonCordeiro1994/ladingpageresponsiva">
+                            <CardLink href="https://github.com/EvertonCordeiro1994/ladingpageresponsiva" target='_blank'>
                                 < Icon icon='ri:github-line' /> Repositório
                             </CardLink>
-                            <CardLink href="https://ladingpageresponsive.netlify.app/">
+                            <CardLink href="https://ladingpageresponsive.netlify.app/" target='_blank'>
                                 < Icon icon='material-symbols:deployed-code-outline-sharp' /> Depolyed
                             </CardLink>
                         </CardBody>
@@ -89,10 +89,10 @@ export default function Projetos() {
                             <CardText>
                                 O To Do List é um aplicativo que permite aos usuários gerenciar suas tarefas diárias. Este projeto utiliza o framework React.js para criar uma interface interativa e responsiva, permitindo que os usuários adicionem, removam e atualizem tarefas. O CSS é utilizado para estilizar o aplicativo e fornecer uma experiência agradável aos usuários.
                             </CardText>
-                            <CardLink href="https://github.com/EvertonCordeiro1994/todolistreactjs">
+                            <CardLink href="https://github.com/EvertonCordeiro1994/todolistreactjs" target='_blank'>
                                 < Icon icon='ri:github-line' /> Repositório
                             </CardLink>
-                            <CardLink href="https://todolistreactjsporevertoncordeiro.netlify.app/">
+                            <CardLink href="https://todolistreactjsporevertoncordeiro.netlify.app/" target='_blank'>
                                 < Icon icon='material-symbols:deployed-code-outline-sharp' />  Deployed
                             </CardLink>
                         </CardBody>
