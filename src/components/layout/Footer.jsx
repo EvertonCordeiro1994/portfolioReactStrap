@@ -18,10 +18,16 @@ export default function Footer() {
 
             <Row>
                 <Col>
-                    <div className='d-flex justify-content-center gap-5 pb-5'>
-                        <Icon icon="bi:github"    className='iconSize-footer' />
-                        <Icon icon="mdi:linkedin" className='iconSize-footer' />
-                        <Icon icon="tabler:mail"  className='iconSize-footer' />
+                    <div className='d-flex justify-content-center gap-5 pb-5 link'>
+                        <a href="https://github.com/EvertonCordeiro1994" target='_blank'>
+                            <Icon icon="bi:github" className='iconSize-footer' />
+                        </a>
+                        <a href="https://www.linkedin.com/in/evertoncordeiro1994" target='_blank' >
+                            <Icon icon="mdi:linkedin" className='iconSize-footer' />
+                        </a>
+                        <a href="mailto:email@provedor.com.br" target='_blank'>
+                            <Icon icon="tabler:mail" className='iconSize-footer' />
+                        </a>
                     </div>
                 </Col>
             </Row>

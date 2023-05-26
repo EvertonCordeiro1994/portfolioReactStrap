@@ -25,9 +25,15 @@ export default function Home() {
                         </h1>
 
                         <div className='d-flex justify-content-center gap-5'>
-                            <Icon icon="bi:github"      className='iconSize-home' />
-                            <Icon icon="mdi:linkedin"   className='iconSize-home'  />
-                            <Icon icon="tabler:mail"    className='iconSize-home'  />
+                            <a href="https://github.com/EvertonCordeiro1994" target='_blank'>
+                                <Icon icon="bi:github"      className='iconSize-home' />
+                            </a>
+                            <a href="https://www.linkedin.com/in/evertoncordeiro1994" target='_blank' >
+                                <Icon icon="mdi:linkedin"   className='iconSize-home'  />
+                            </a>
+                            <a href="mailto:email@provedor.com.br" target='_blank'>
+                                <Icon icon="tabler:mail"    className='iconSize-home'  />
+                            </a>
                         </div>
 
                     </div>
