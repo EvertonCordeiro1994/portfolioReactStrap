@@ -18,7 +18,7 @@ export default function Example(args) {
             <Container>
                 <Row>
                     <Col className="text-center" md={{ offset: 3, size: 6 }} sm="12">
-                        <Navbar dark expand fixed='top' container='fluid' {...args}>
+                        <Navbar dark expand fixed='top' container='fluid' className='glass' >
                             <Collapse navbar>
                                 <Nav className="mx-auto" navbar>
                                     <NavItem>

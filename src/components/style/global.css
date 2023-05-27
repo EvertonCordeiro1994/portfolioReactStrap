@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;900&display=swap');
 
 :root {
-    --background-color: #242424;
+    --background-color: rgb(36, 36, 36);
     --title-color: #cccccc;
     --font-color: #666666;
     --navbar-font-color: #d8cbcb;
@@ -37,6 +37,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.glass {
+    background: rgba(36, 36, 36, 0.3); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    padding: 20px; 
+  }
 
 .m-6 {
     margin: 6rem;
