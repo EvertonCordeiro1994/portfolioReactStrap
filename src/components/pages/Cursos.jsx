@@ -11,7 +11,7 @@ export default function Curso() {
         <Container >
             <Col className="d-flex justify-content-center mb-10 ">
                 <div className='text-center'>
-                    <h2 className="container-sobre-h2 gradient" >Cursos</h2>
+                    <h2 className="container-sobre-h2 gradient" >Meus cursos</h2>
                     <ListaXP
                         curso='React js'
                         duracao='40h'

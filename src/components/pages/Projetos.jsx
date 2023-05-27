@@ -16,7 +16,7 @@ export default function Projetos() {
         <Container>
             <Row>
                 <Col  className="text-center mb-5 ">
-                    <h1 className="gradient">Projetos</h1>
+                    <h1 className="gradient">Meus projetos</h1>
                     <p className="mb-5 ">
                         Aqui é onde eu compartilho alguns dos meus projetos mais empolgantes e recentes. Eu adoro desafios criativos e estou animado para mostrar a você o que tenho feito!
                     </p>
