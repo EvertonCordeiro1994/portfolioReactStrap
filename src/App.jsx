@@ -1,4 +1,3 @@
-import Navbar from './components/layout/Navbar'
 import Home from './components/pages/Home'
 import Sobre from './components/pages/Sobre'
 import Cursos from './components/pages/Cursos'
@@ -12,7 +11,6 @@ function App() {
 
   return (
     <>
-      <Navbar/>
       <Home/>
       <Sobre/>
       <Cursos/>
