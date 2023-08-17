@@ -10,11 +10,11 @@ import { Icon } from '@iconify/react'
 
 export default function Home() {
     return (
-        <Container xl='12' fluid className="mt-10 mb-5">
+        <Container xl='12' fluid className=" mb-5">
             <Row>
                 <Col xl="8" md="8" sm='12' xs='12' >
                     <div>
-                        <h1 className='text-center title-home'>
+                        <h1 className='mt-10 text-center title-home'>
                             Olá ! Me chamo
                             <br />
                             <span className='gradient'>Éverton Cordeiro</span>
