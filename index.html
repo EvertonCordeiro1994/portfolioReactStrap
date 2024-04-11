@@ -1,16 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/webp" href="./src/components/img/macbook.webp" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Éverton Cordeiro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.0.0/iconify-icon.min.js"></script>
 </head>
+<body class="dark:bg-gray-800">
+    <div class="mt-10 w-full h-full">
+        <div class="flex items-center flex-col sm:flex-row-reverse sm:gap-4 ">
+            <div class="relative p-10 border-2  border-dashed  border-spacing-4 border-gray-400/50 rounded-full">
+                <button class="left-[45px]  -top-[4px] absolute rounded-full bg-cover cursor-pointer p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                    <span class="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2]">
+                        <iconify-icon icon="skill-icons:html" width="2.5rem" height="2.5rem"></iconify-icon>
+                    </span>
+                </button>
+                <button class="right-[45px] -top-[4px] absolute rounded-full bg-cover cursor-pointer p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                    <span class="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] p-1">
+                        <iconify-icon icon="skill-icons:css" width="2.5rem" height="2.5rem"></iconify-icon>
+                    </span>
+                </button>
+                <button class=" -left-4 top-20 absolute rounded-full bg-cover cursor-pointer p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                    <span class="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] p-1">
+                        <iconify-icon icon="skill-icons:react-light" width="2.5rem" height="2.5rem"></iconify-icon>
+                    </span>
+                </button>
+                <button class=" -right-4 top-20 absolute rounded-full bg-cover cursor-pointer p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                    <span class="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] p-1">
+                        <iconify-icon icon="skill-icons:tailwindcss-light" width="2.5rem" height="2.5rem"></iconify-icon>
+                    </span>
+                </button>
+                <button class="profile_item bottom-8 -left-0 absolute rounded-full bg-cover cursor-pointer p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                    <span class="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] p-1">
+                        <iconify-icon icon="skill-icons:mysql-light" width="2.5rem" height="2.5rem"></iconify-icon>
+                    </span>
+                </button>
+                <button class="profile_item bottom-8 -right-0 absolute rounded-full bg-cover cursor-pointer p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                    <span class="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] p-1">
+                        <iconify-icon icon="skill-icons:javascript" width="2.5rem" height="2.5rem"></iconify-icon>
+                    </span>
+                </button>
+                <button class="profile_item right-[40%] -bottom-4 absolute rounded-full bg-cover cursor-pointer p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
+                    <span class="block w-[40px] h-[40px] transition-all duration-500 rounded-full z-[2] p-1">
+                        <iconify-icon icon="skill-icons:bootstrap" width="2.5rem" height="2.5rem"></iconify-icon>
+                    </span>
+                </button>
+                <button class="w-[200px] h-[200px] p-1 rounded-full cursor-pointer transition-all duration-500 z-0">
+                    <span class="ml-3 -mt-9 w-40 h-40 inline-block">
+                        <img src="img/20240404174621.png">
+                    </span>
+                </button>
+            </div>
+         <div class="mt-10 flex items-center flex-col">
+          <h1 class="mb-2 text-5xl font-bold tracking-tight text-white"> Éverton Cordeiro </h1>
+       <p class="mb-2 text-2xl font-bold tracking-tight text-white"> Desenvolvedor Front-End</p>
+         <p class="mb-5 text-1  tracking-tight text-white w-80 text-center"> Quer dar vida ao seu negócio online? Seja para criar um site do zero ou para transformar sua ideia em realidade, estou aqui para ajudar! Entre em contato agora mesmo e vamos tornar seu projeto uma realidade de sucesso.</p>
+            
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
+<div class="inline-flex rounded-md shadow-sm" role="group">
+  <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+   <iconify-icon icon="dashicons:admin-site-alt3" width="2em" height="2em"  style="color: white"></iconify-icon>
+    Portfólio 
+  </button>
+  <button type="button" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+ <iconify-icon icon="ic:baseline-whatsapp" width="2em" height="2em"  style="color: white"></iconify-icon>
+    Orçamento 
+  </button>
+</div>
+
+         </div>
+
+
+        </div>
+       
+    </div>
 </body>
-
 </html>
